@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin:0;
+    padding: 0%;
+    text-decoration: none;
+    
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+html{
+    font-size: 60%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: none;
+    background-color: black;
+    color: azure;
+}
+header {
+    display: flex;
+    margin-top: 10px;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    padding: 1rem 9%;
+    align-items: center;
+    justify-content:space-between;
+    z-index: 100;
+    position: fixed;
+    
+}
+header a:hover{
+    font-weight: 800;
+    font-size: 2.2rem;
+    transition: 0.5s ease;
+    color: rgb(91, 5, 141);
+    border-bottom: 2px solid rgb(91, 5, 141);
+    transition: 0.5s ease;
+}
+.logo{
+    color: rgb(255, 0, 0);
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+nav a{
+    color:azure;
+    padding: 1rem ;
+    font-size: 1.7rem;
+}
+.active{
+    font-size: 2rem;
+    border-bottom: 2px solid rgb(244, 81, 81);
+    color: rgb(255, 0, 0);
+    font-weight: 800;
+}
+section{
+    min-height: 100vh;
+    padding: 5rem 10% 5rem;
+
+}
+.home{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
+    position: fixed;
+    }
+   
+.home .home-content h1{
+    font-size: 4rem;
+}
+.home .home-content h3{
+    font-size: 2.7rem;
+}
+span{
+    color: rgb(255, 0, 0);
+}
+.home .home-content p{
+    font-size: 1.8rem;
+}
+.home-img img{
+    border-radius: 50%;
+    box-shadow: 25px solid;
+    width: 30vw;
+    position: relative;
+}
+.socials a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid rgb(255, 0, 0);
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color: rgb(255, 0, 0);
+    
+}
+
+.socials a:hover{
+    font-size: 2.5rem;
+    color: rgb(91, 5, 141);
+    font-weight: 900;
+    border: 0.2rem solid rgb(91, 5, 141)
+}
+
+.edu {
+    color: azure;
+    font-size: 4rem;
+    font-weight: 800;
+
+    display: flex;                /* make it a flexbox */
+    align-items: center;          /* center vertically */
+    justify-content: center;
+    margin:20px;/* center horizontally */
+    
+    height: 20vh;                /* take full screen height */
+    width: 100%;                  /* full width */
+    text-align: center;
+    
+    border-bottom: 2px double rgb(255, 255, 255);
+}
+.srm .cool{
+    font-size: 3rem;
+    
+    border-bottom: 2px dotted rgb(255, 0, 0);
+    display:inline-block;
+    
+    
+}
+.uis .cool{
+    font-size: 3rem;
+    display: inline-block;
+    
+    border-bottom: 2px dotted rgb(255, 0, 0);
+    
+    
+}
+.cool{
+    color: rgb(255, 0, 0);
+}
+h4{
+    font-size: 2rem;
+    color: azure;
+    transition: 0.5s ease;
+}
+h4:hover{
+    font-size: 2.3rem;
+    
+    
+    transition: 0.5s ease;
+    
+}
+.srm p{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.uis p{
+    font-size: 2rem;
+    margin-top:20px;
+}
+.con{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    margin: 20px;
+    height: 20vh;
+    border-bottom: 2px double rgb(255, 255, 255);
+}
+.ww{
+    font-size: 2.5rem;
+    font-weight: 800;
+    transition: 0.5s ease;
+}
+.oo{
+    font-size: 2.5rem;
+    font-weight: 800;
+    transition: 0.5s ease
+}
+.ww:hover{
+    font-size: 2.8rem;
+    font-weight: 800;
+    transition: 0.5s ease
+}
+.oo:hover{
+    font-size: 2.8rem;
+    font-weight: 800;
+    transition: 0.5s ease
+}
+.pro{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    margin: 20px;
+    height: 20vh;
+    border-bottom: 2px double rgb(255, 255, 255);
+}
+
